@@ -1,0 +1,38 @@
+{
+    "DD(source='demographics.csv', variable='subject ID')": {
+        "label": "subject ID",
+        "description": "subject/participant identifier",
+        "sameAs": "https://ndar.nih.gov/api/datadictionary/v2/dataelement/src_subject_id",
+        "valueType": "http://www.w3.org/2001/XMLSchema#string",
+        "source_variable": "subject ID"
+    },
+    "DD(source='demographics.csv', variable='sex')": {
+        "label": "sex",
+        "description": "Biological sex of participant",
+        "levels": [
+            "Female",
+            "Male"
+        ],
+        "valueType": "http://www.w3.org/2001/XMLSchema#complexType",
+        "source_variable": "sex",
+        "isAbout": "http://uri.interlex.org/base/ilx_0101292"
+    },
+    "DD(source='demographics.csv', variable='age')": {
+        "label": "age",
+        "description": "Age of participant at scan",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "source_variable": "age",
+        "isAbout": "http://uri.interlex.org/base/ilx_0100400"
+    },
+    "DD(source='demographics.csv', variable='group')": {
+        "label": "group",
+        "description": "Group designator for study",
+        "levels": [
+            "A",
+            "B"
+        ],
+        "valueType": "http://www.w3.org/2001/XMLSchema#complexType",
+        "source_variable": "group",
+        "isAbout": "http://purl.org/nidash/nidm#Group"
+    }
+}

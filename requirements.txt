@@ -1,0 +1,5 @@
+bash_kernel
+matplotlib
+pandas
+python-Levenshtein
+git+https://github.com/ReproNim/segstats_jsonld.git@364045cf1abbcd5e8cc95015d2a7fa877ea20246
