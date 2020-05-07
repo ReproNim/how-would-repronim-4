@@ -1,5 +1,7 @@
 This is the companion notebook to "How would ReproNim...?" Volume 4.
 
+[doi:10.18116/kgt2-xc27](https://doi.org/10.18116/kgt2-xc27)
+
 To run locally:
 
     make venv
